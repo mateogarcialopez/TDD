@@ -1,5 +1,5 @@
-function main(): number {
-    return 25
+function main() {
+    return 25;
 }
 
-main()
+main();
