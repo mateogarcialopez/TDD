@@ -1,4 +1,5 @@
-const express = require('express')
-function prueba() {
+function main(): number {
     return 25
 }
+
+main()
