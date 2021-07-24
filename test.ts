@@ -1,5 +1,3 @@
-function main() {
+function test() {
     return 25;
 }
-
-main();
