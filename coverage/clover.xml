@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627357184602" clover="3.2.0">
-  <project timestamp="1627357184602" name="All files">
-    <metrics statements="46" coveredstatements="46" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="65" coveredelements="65" complexity="0" loc="46" ncloc="46" packages="2" files="3" classes="3"/>
+<coverage generated="1627411967065" clover="3.2.0">
+  <project timestamp="1627411967066" name="All files">
+    <metrics statements="56" coveredstatements="56" conditionals="12" coveredconditionals="12" methods="11" coveredmethods="11" elements="79" coveredelements="79" complexity="0" loc="56" ncloc="56" packages="2" files="3" classes="3"/>
     <package name="controllers">
       <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="register-vehicle.ts" path="E:\programacion\JavaScript\TDD\src\controllers\register-vehicle.ts">
+      <file name="register-vehicle.ts" path="C:\xampp\htdocs\TDD\src\controllers\register-vehicle.ts">
         <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -25,8 +25,8 @@
       </file>
     </package>
     <package name="models">
-      <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
-      <file name="food-model.ts" path="E:\programacion\JavaScript\TDD\src\models\food-model.ts">
+      <metrics statements="40" coveredstatements="40" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
+      <file name="food-model.ts" path="C:\xampp\htdocs\TDD\src\models\food-model.ts">
         <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -44,23 +44,33 @@
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
-      <file name="vehicle-models.ts" path="E:\programacion\JavaScript\TDD\src\models\vehicle-models.ts">
-        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="vehicle-models.ts" path="C:\xampp\htdocs\TDD\src\models\vehicle-models.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
   </project>
