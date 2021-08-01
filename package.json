@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest - --updateSnapshot --coverage",
+    "test": "jest - --updateSnapshot",
     "start": "node app.js"
   },
   "lint-staged": {

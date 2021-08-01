@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627436842654" clover="3.2.0">
-  <project timestamp="1627436842655" name="All files">
-    <metrics statements="72" coveredstatements="64" conditionals="14" coveredconditionals="13" methods="12" coveredmethods="11" elements="98" coveredelements="88" complexity="0" loc="72" ncloc="72" packages="3" files="4" classes="4"/>
+<coverage generated="1627860657792" clover="3.2.0">
+  <project timestamp="1627860657793" name="All files">
+    <metrics statements="63" coveredstatements="63" conditionals="13" coveredconditionals="13" methods="11" coveredmethods="11" elements="87" coveredelements="87" complexity="0" loc="63" ncloc="63" packages="2" files="3" classes="3"/>
     <package name="controllers">
-      <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
       <file name="register-vehicle.ts" path="E:\programacion\JavaScript\TDD\src\controllers\register-vehicle.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="interfaces">
-      <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="http-interface.ts" path="E:\programacion\JavaScript\TDD\src\interfaces\http-interface.ts">
-        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
     <package name="models">
