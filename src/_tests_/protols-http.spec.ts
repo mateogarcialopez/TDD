@@ -33,4 +33,11 @@ describe('Protocols http and query´s', () => {
 
     expect(parseUrl.query).toEqual(expectAuth)
   })
+
+  test('Invalid URL', () => {
+    function expectedError (): void {
+      UrlLogin.parseUrl('')
+    }
+    expect(expectedError).toThrowError('Invalid URL')
+  })
 })
