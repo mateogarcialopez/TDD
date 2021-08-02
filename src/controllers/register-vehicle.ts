@@ -1,3 +1,4 @@
+import { MissingFormalParameter } from '../errors/client-errors'
 import { HttpRequest, HttpResponse } from '../interfaces/http-interface'
 
 export class RegisterVehicle {
@@ -9,7 +10,7 @@ export class RegisterVehicle {
     for (const props of requiredProperties) {
       if (httpRequest.body[props] === undefined) {
         statusCode = 400
-        body = new Error(`error in the: ${props}`)
+        body = new MissingFormalParameter(`${props}`)
       }
     }
 
